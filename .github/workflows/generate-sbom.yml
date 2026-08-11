@@ -58,3 +58,4 @@ jobs:
           sbom-file: 'otterdog-bom.json'
           product-name: 'otterdog'
           product-version: ${{ steps.export.outputs.PROJECT_VERSION }}
+          staging: true
